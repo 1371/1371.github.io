@@ -14,7 +14,7 @@ tags:
 ## Блоги никому не нужны
 
 <figure>
-    <img src="shutterstock_531885379.jpg" />
+    <img src="../assests/img/shutterstock_531885379.jpg" />
     <figcaption>Фотография от <a href="https://www.shutterstock.com/g/Olena+Yakobchuk" target="_blank_">Olena Yakobchuk</a></figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ tags:
 Если вы Алексей Навальный, ну или другой мудак, тогда поисковой оптимизацией интересоваться не стоит по-прежнему.
 А в принципе, выполнение базовых требований поисковых систем, обеспечит вашему блогу высшие позиции по СЧ запросам.
 <figure>
-    <img src="shutterstock_531887029.jpg" />
+    <img src="../assests/img/shutterstock_531887029.jpg" />
     <figcaption>Фотография от <a href="https://www.shutterstock.com/g/Olena+Yakobchuk" target="_blank_">Olena Yakobchuk</a></figcaption>
 </figure>
 
