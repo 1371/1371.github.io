@@ -13,7 +13,7 @@ tags:
 ---
 
 <figure>
-    <img src="shutterstock_447330457.jpg" />
+    <img src="../assets/img/shutterstock_447330457.jpg" />
     <figcaption>Изображение от <a href="https://www.shutterstock.com/g/focusimage" target="_blank_">focusimage</a></figcaption>
 </figure>
 
