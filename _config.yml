@@ -55,7 +55,7 @@ defaults:
 
 # Сервер и хостинг
 url: "https://1371.github.io"
-baseurl: "1371.github.io"
+baseurl: "https://1371.github.io/"
 
 # Вложения
 include: ["_pages"]
