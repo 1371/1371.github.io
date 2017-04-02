@@ -57,7 +57,7 @@ item a:hover {
     border-radius: 4px;
     padding-left: 10px;
 }
-.wrapper { max-width: $default-width; margin: 0 auto; padding: 80px 20px; }
+.wrapper { margin: 0 auto; padding: 80px 20px; }
 
 .user-profile { position: relative; float: left; width: 28%; margin-right: 2%; padding: 20px 0 0; text-align: center;
 	& > * { display: block; }
