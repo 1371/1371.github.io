@@ -54,8 +54,8 @@ defaults:
       comments: "true"
 
 # Сервер и хостинг
-url: "https://dubkov.xyz"
-baseurl: "https://dubkov.xyz/"
+url: "https://1371.github.io"
+baseurl: "https://1371.github.io/"
 
 # Вложения
 include: ["_pages"]
