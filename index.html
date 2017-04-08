@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 {% for post in paginator.posts %}
 <article class="post" role="article" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -17,15 +16,12 @@ layout: default
         </ul>
         <h2 itemprop="name headline"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></h2>
     </header>
-
     <div class="post-content">
         {{ post.excerpt }}
-
         {% if post.excerpt != post.content %}
             <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" role="button">Подробнее</a></p>
         {% endif %}
     </div>
-
     <footer class="post-footer">
         {% if site.show_mood == 1 and post.mood %}
         <div class="mood {{ post.mood }}" title="{{ post.mood | capitalize }}">Настроение</div>
@@ -48,7 +44,6 @@ layout: default
     </footer>
 </article>
 {% endfor %}
-
 {% if paginator.total_pages > 1 %}
 <div class="pagination clear" role="navigation" aria-label="pagination">
     {% if paginator.previous_page %}
