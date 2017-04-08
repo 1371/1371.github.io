@@ -55,7 +55,7 @@ defaults:
 
 # Serving
 url: "http://dubkov.xyz"
-baseurl: "/"
+baseurl: ""
 
 # Includes
 include: ["_pages"]
