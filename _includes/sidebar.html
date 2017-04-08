@@ -1,6 +1,6 @@
 <aside class="user-profile {% if site.fixed_sidebar == 1 %}fixed{% endif %}" role="complementary">
     <a href="{{ site.baseurl | prepend: site.url }}"><img class="avatar" src="{% if site.avatar %}{{site.avatar}}{% else %}{{ site.email | to_gravatar:140 }}{% endif %}" /></a>
-    <strong class="my-name">{{ site.name }}</strong>
+    <h1><strong class="my-name">{{ site.name }}</strong></h1>
     <span class="my-job-title">{{ site.job_title }}</span>
     {% if site.show_menu == 1 %}
         {% if site.pages %}
