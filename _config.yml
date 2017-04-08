@@ -54,8 +54,8 @@ defaults:
       comments: "true"
 
 # Serving
-url: ""
-baseurl: ""
+url: "dubkov.xyz"
+baseurl: "dubkov.xyz/"
 
 # Includes
 include: ["_pages"]
