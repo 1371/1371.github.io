@@ -12,7 +12,7 @@ tags:
 ## Блоги никому не нужны
 
 <figure>
-    <img src="../assets/img/shutterstock_531885379.jpg" />
+    <img src="http://dubkov.xyz/assets/img/shutterstock_531885379.jpg" alt="Блогер" />
     <figcaption>Фотография от <a href="https://www.shutterstock.com/g/Olena+Yakobchuk" target="_blank_">Olena Yakobchuk</a></figcaption>
 </figure>
 
