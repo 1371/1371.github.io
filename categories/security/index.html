@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Безопасность | Николай Дубков</title>
+    <meta property="og:title" content="Безопасность | Николай Дубков" />
+    <meta name="twitter:title" content="Безопасность | Николай Дубков" />
+    <meta name="description" content="Category: blog">
+    <meta name="description" property="og:description" content="Category: blog" />
+    <meta name="twitter:description" content="Category: blog" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@_dubkov" />
+    <meta property="og:url" content="/categories/security/" />
+    <meta property="og:image" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="author" content="Николай Дубков" />
+    <meta name="copyright" content="Copyright by Николай Дубков. All Rights Reserved." />
+    <style>
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 900;
+            src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v15/mnpfi9pxYH-Go5UiibESIltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 300;
+            src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v15/7m8l7TlFO-S3VkhHuR0at44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v15/vPcynSL0qHq_6dX7lKVByfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 700;
+            src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 900;
+            src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v15/bmC0pGMXrhphrZJmniIZpY4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+    </style>
+    
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="/categories/blog/">
+    <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+</head>
+    <body>
+        <div class="wrapper clear">
+            
+<aside class="user-profile fixed" role="complementary">
+    <a href="http://dubkov.xyz"><img class="avatar" src="https://avatars.mds.yandex.net/get-yapic/39727/1130000023618087-1543417897/islands-200" /></a>
+    <h1><strong class="my-name">Николай Дубков</strong></h1>
+    <span class="my-job-title">Веб-разработчик</span>
+        <div class="mainmenu">
+            <a href="http://dubkov.xyz" class="active">Главная</a>
+            <a href="http://dubkov.xyz/portfolio/" >Портфолио</a>
+        </div>
+    <p class="about-me">Приветствую, @username! Я не могу рассказать о себе использовав только 160 символов гипертекста. Подробнее обо мне, можно узнать на моей домашней страничке.</p>
+    <ul>
+        <li><a href="https://github.com/1371"><svg title="github" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#github-icon"></use></svg></a></li>
+        
+            <li><a href="mailto:nikolai@dubkov.xyz"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#email-icon"></use></svg></a></li>
+        
+        
+         <li><a href="http://dubkov.xyz/feed.xml"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#rss-icon"></use></svg></a></li>
+        
+    </ul>
+</aside>
+
+            <main class="the-content" role="main">
+                <div class="search" role="search">
+    <div>
+        <div class="show-results-count">Нет результатов</div>
+        <div class="search-holder clear">
+            <input type="text" id="search-input" placeholder="Умный поиск">
+        </div>
+    </div>
+    <ul id="results-container" class="results-container"></ul>
+</div>
+                
+                <article class="post" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <ul class="clear">
+            <li><time datetime="2016-08-05T21:24:00+00:00" itemprop="datePublished">2016-08-05</time></li>
+            
+                <li class="cats">
+                    
+                        <a href="/categories/security/">security</a>
+                    
+                </li>
+            
+        </ul>
+        <h2 itemprop="name headline"><a href="http://dubkov.xyz/security/sql-injection-nmap.html">Поиск SQL Injection</a></h2>
+    </header>
+    <div class="post-content">
+        <figure>
+    <img src="http://dubkov.xyz/assets/img/sql-injection.png" alt="SQL Injection" />
+</figure>
+
+<p>Планирую собрать интересную подборочку статей о поиске SQL инъекций и методах внедрения SQL-кода в различные веб-интерфейсы. 
+И начинается моя подборка с поста о быстром поиске SQL Injection на сайте с помощью Nmap. Скрипт достаточно популярный и
+с его помощью, можно осуществлять поиск дырок на веб-страницах.</p>
+
+
+        
+            <p><a href="http://dubkov.xyz/security/sql-injection-nmap.html" role="button">Подробнее</a></p>
+        
+    </div>
+    <footer class="post-footer">
+        
+        <div class="mood happy" title="Happy">Настроение</div>
+        
+        <div class="share">Поделиться
+            <ul class="social-networks">
+                <li class="share-facebook"><a href="https://www.facebook.com/sharer.php?s=100&p[title]=Поиск SQL Injection&p[summary]=Планирую собрать интересную подборочку статей о поиске SQL инъекций и методах внедрения SQL-кода в различные веб-интерфейсы. 
+И н...&p[url]=http://dubkov.xyz/security/sql-injection-nmap.html" class="s_facebook" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></a></li>
+                <li class="share-twitter"><a href="http://twitter.com/share?url=http://dubkov.xyz/security/sql-injection-nmap.html&text=Планирую собрать интересную подборочку статей о поиске SQL инъекций и методах внедрения SQL-кода в различные веб-интерфейсы. 
+И н...&hashtags=" rel="noreferrer" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li>
+            </ul>
+        </div>
+        
+        <div class="tags">
+            <ul>
+                
+            </ul>
+        </div>
+        
+    </footer>
+</article>
+
+<article class="post" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <ul class="clear">
+            <li><time datetime="2016-08-05T11:50:00+00:00" itemprop="datePublished">2016-08-05</time></li>
+            
+                <li class="cats">
+                    
+                        <a href="/categories/security/">security</a>
+                    
+                </li>
+            
+        </ul>
+        <h2 itemprop="name headline"><a href="http://dubkov.xyz/security/anonymous-on-wi-fi.md.html">Анонимность в Wi-Fi сетях</a></h2>
+    </header>
+    <div class="post-content">
+        <figure>
+    <img src="http://dubkov.xyz/assets/img/wi-fi-free.png" alt="Wi-Fi" />
+</figure>
+
+<p>Как обезопасить свой компьютер при взломе и нахождении (работе и подключении) в чужой сети Wi-Fi? Я решил поделиться некоторыми приемами для маскировки компьютера, при которых компьютер будет иметь поддельные данные в логах и интерфейсе соединений большинства роутеров.</p>
+
+
+        
+            <p><a href="http://dubkov.xyz/security/anonymous-on-wi-fi.md.html" role="button">Подробнее</a></p>
+        
+    </div>
+    <footer class="post-footer">
+        
+        <div class="mood happy" title="Happy">Настроение</div>
+        
+        <div class="share">Поделиться
+            <ul class="social-networks">
+                <li class="share-facebook"><a href="https://www.facebook.com/sharer.php?s=100&p[title]=Анонимность в Wi-Fi сетях&p[summary]=Как обезопасить свой компьютер при взломе и нахождении (работе и подключении) в чужой сети Wi-Fi? Я решил поделиться некоторыми п...&p[url]=http://dubkov.xyz/security/anonymous-on-wi-fi.md.html" class="s_facebook" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></a></li>
+                <li class="share-twitter"><a href="http://twitter.com/share?url=http://dubkov.xyz/security/anonymous-on-wi-fi.md.html&text=Как обезопасить свой компьютер при взломе и нахождении (работе и подключении) в чужой сети Wi-Fi? Я решил поделиться некоторыми п...&hashtags=" rel="noreferrer" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li>
+            </ul>
+        </div>
+    </footer>
+</article>
+
+
+<article class="post" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <ul class="clear">
+            <li><time datetime="2016-08-03T22:50:00+00:00" itemprop="datePublished">2016-08-03</time></li>
+            
+                <li class="cats">
+                    
+                        <a href="/categories/security/">security</a>
+                    
+                </li>
+            
+        </ul>
+        <h2 itemprop="name headline"><a href="http://dubkov.xyz/security/hack-wi-fi-windows.html">Взлом Wi-Fi из под Windows</a></h2>
+    </header>
+    <div class="post-content">
+        <figure>
+    <img src="http://dubkov.xyz/assets/img/hack-wi-fi.png" alt="Взлом Wi-Fi" />
+</figure>
+
+<p>Маленькие любители хакерства, до сих пор не смогли освоить Linux и взломать Wi-Fi. Поэтому я написал маленький пост про взлом Wi-Fi из под Windows с помощью нового Dumpper. Никаких скриптов и командных строк, привычный оконный интерфейс.</p>
+
+
+        
+            <p><a href="http://dubkov.xyz/security/hack-wi-fi-windows.html" role="button">Подробнее</a></p>
+        
+    </div>
+    <footer class="post-footer">
+        
+        <div class="mood happy" title="Happy">Настроение</div>
+        
+        <div class="share">Поделиться
+            <ul class="social-networks">
+                <li class="share-facebook"><a href="https://www.facebook.com/sharer.php?s=100&p[title]=Взлом Wi-Fi из под Windows&p[summary]=
+    
+
+
+Маленькие любители хакерства, до сих пор не смогли освоить Linux и взломать Wi-Fi. Поэтому я написал маленький пост про взлом Wi-...&p[url]=http://dubkov.xyz/security/hack-wi-fi-windows.html" class="s_facebook" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></a></li>
+                <li class="share-twitter"><a href="http://twitter.com/share?url=http://dubkov.xyz/security/hack-wi-fi-windows.html&text=
+    
+
+
+Маленькие любители хакерства, до сих пор не смогли освоить Linux и взломать Wi-Fi. Поэтому я написал маленький пост про взлом Wi-...&hashtags=" rel="noreferrer" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li>
+            </ul>
+        </div>
+        
+        <div class="tags">
+            <ul>
+                
+            </ul>
+        </div>
+        
+    </footer>
+</article>
+
+<article class="post" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <ul class="clear">
+            <li><time datetime="2016-04-17T19:34:54+00:00" itemprop="datePublished">2016-04-17</time></li>
+            
+                <li class="cats">
+                    
+                        <a href="/categories/security/">security</a>
+                    
+                </li>
+            
+        </ul>
+        <h2 itemprop="name headline"><a href="http://dubkov.xyz/security/router-scan.html">Взлом роутеров с помощью RouterScan</a></h2>
+    </header>
+    <div class="post-content">
+        <figure>
+    <img src="http://dubkov.xyz/assets/img/router_beeline.jpg" alt="Роутер Билайн" />
+</figure>
+
+<p>Наступила весна, по крайне мере у меня в регионе, и вдохновившись хорошей погодой, я решил пройтись катком по одному из крупнейших провайдеров домашнего интернета, и уже по совсем устаревшим роутерам D-Link, которые данный провайдер когда-то устанавливал своим клиентам. Честно признаться, мне не нравится ни этот оператор, ни продукция фирмы D-Link, потому что они дырявые насквозь. В сети есть несколько туториалов по поиску «бесплатного» интернета, и в себе они содержат инструкцию, как очень просто попасть на удобную шконку, какой-нибудь исправительной колонии.</p>
+<p><a href="http://dubkov.xyz/security/router-scan.html" role="button">Подробнее</a></p>
+    </div>
+    <footer class="post-footer">
+        <div class="mood happy" title="Happy">Настроение</div>
+        <div class="share">Поделиться
+            <ul class="social-networks">
+                <li class="share-facebook"><a href="https://www.facebook.com/sharer.php?s=100&p[title]=Взлом роутеров с помощью RouterScan&p[summary]=Наступила весна, по крайне мере у меня в регионе, и вдохновившись хорошей погодой, я решил пройтись катком по одному из крупнейши...&p[url]=http://dubkov.xyz/security/router-scan.html" class="s_facebook" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></a></li>
+                <li class="share-twitter"><a href="http://twitter.com/share?url=http://dubkov.xyz/security/router-scan.html&text=Наступила весна, по крайне мере у меня в регионе, и вдохновившись хорошей погодой, я решил пройтись катком по одному из крупнейши...&hashtags=" rel="noreferrer" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li>
+            </ul>
+        </div>
+    </footer>
+</article>
+<article class="post" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <ul class="clear">
+            <li><time datetime="2016-03-28T06:30:52+00:00" itemprop="datePublished">2016-03-28</time></li>
+                <li class="cats">
+                        <a href="/categories/security/">security</a>
+                </li>
+        </ul>
+        <h2 itemprop="name headline"><a href="http://dubkov.xyz/security/hack-ip-camera.html">Взлом IP камер</a></h2>
+    </header>
+    <div class="post-content">
+        <figure>
+    <img src="../assets/img/shutterstock_447330457.jpg" alt:="" Взлом="" ip="" камер="" />
+    <figcaption>Изображение от <a href="https://www.shutterstock.com/g/focusimage" target="_blank_">focusimage</a></figcaption>
+</figure>
+<p>Сегодня, ни для кого не секрет, что любые системы наружного видеонаблюдения уязвимы. IP-камеры в вашей бухгалтерии и на охраняемом объекте, давно стали одной из множества легкодостижимых целей для злоумышленников и школьной орды. Дело в том, что большинство специалистов в отрасли видеонаблюдения в России не уделяют достаточного внимания безопасности веб-интерфейсов таких устройств, как IP-камера или регистратор. Как показывает практика – очень зря.</p>
+<p><a href="http://dubkov.xyz/security/hack-ip-camera.html" role="button">Подробнее</a></p>
+    </div>
+    <footer class="post-footer">
+        <div class="mood happy" title="Happy">Настроение</div>
+        <div class="share">Поделиться
+            <ul class="social-networks">
+                <li class="share-facebook"><a href="https://www.facebook.com/sharer.php?s=100&p[title]=Взлом IP камер&p[summary]=Сегодня, ни для кого не секрет, что любые системы наружного видеонаблюдения уязвимы. IP-камеры в ва...&p[url]=http://dubkov.xyz/security/hack-ip-camera.html" class="s_facebook" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></a></li>
+                <li class="share-twitter"><a href="http://twitter.com/share?url=http://dubkov.xyz/security/hack-ip-camera.html&text=Сегодня, ни для кого не секрет, что любые системы наружного видеонаблюдения уязвимы. IP-камеры в ва...&hashtags=" rel="noreferrer" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li>
+            </ul>
+        </div>
+    </footer>
+</article>
+
+<article class="post" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <ul class="clear">
+            <li><time datetime="2016-01-05T15:14:02+00:00" itemprop="datePublished">2016-01-05</time></li>
+            
+                <li class="cats">
+                    
+                        <a href="/categories/security/">security</a>
+                    
+                </li>
+            
+        </ul>
+        <h2 itemprop="name headline"><a href="http://dubkov.xyz/security/intercepter-ng.html">Про Intercepter-NG и общественный Wi-Fi</a></h2>
+    </header>
+    <div class="post-content">
+        <figure>
+    <img src="http://dubkov.xyz/assets/img/free-wi-fi.jpg" alt="Wi-Fi" />
+</figure>
+
+<p>Приветствую, %username%!
+В этом посте, я снова затеял написать про беспроводную сеть Wi-Fi. Есть очень хорошая и интересная программа, как Intercepter-NG, о которой я хочу рассказать. А еще хочу донести, хотя бы для тех, кто регулярно читает мой бложек – что открытые и незащищенные aka «общественные» беспроводные сети — это зло. Зло, конечно же, для пользователя, но не для злоумышленника.</p>
+
+
+        
+            <p><a href="http://dubkov.xyz/security/intercepter-ng.html" role="button">Подробнее</a></p>
+        
+    </div>
+    <footer class="post-footer">
+        
+        <div class="mood happy" title="Happy">Настроение</div>
+        
+        <div class="share">Поделиться
+            <ul class="social-networks">
+                <li class="share-facebook"><a href="https://www.facebook.com/sharer.php?s=100&p[title]=Про Intercepter-NG и общественный Wi-Fi&p[summary]=В этом посте, я снова затеял написать про беспроводную сеть Wi-Fi. Есть очень хорошая и интересная прогр...&p[url]=http://dubkov.xyz/security/intercepter-ng.html" class="s_facebook" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></a></li>
+                <li class="share-twitter"><a href="http://twitter.com/share?url=http://dubkov.xyz/security/intercepter-ng.html&text=В этом посте, я снова затеял написать про беспроводную сеть Wi-Fi. Есть очень хорошая и интересная прогр...&hashtags=" rel="noreferrer" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li>
+            </ul>
+        </div>
+    </footer>
+</article>
+
+<article class="post" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <ul class="clear">
+            <li><time datetime="2015-12-24T12:22:57+00:00" itemprop="datePublished">2015-12-24</time></li>
+            
+                <li class="cats">
+                    
+                        <a href="/categories/security/">security</a>
+                    
+                </li>
+            
+        </ul>
+        <h2 itemprop="name headline"><a href="http://dubkov.xyz/security/hack-wps.html">Взлом стандарта WPS</a></h2>
+    </header>
+    <div class="post-content">
+        <figure>
+    <img src="http://dubkov.xyz/assets/img/wireless.jpg" alt="Беспроводная сеть" />
+</figure>
+
+<p>По моей скромной традиции, первый пост в моем блоге, после его реанимации, я напишу про Wi-Fi. Спустя год после моего отсутствия для протокола WPS, снова написали довольно неплохой скрипт, который в отличии от предыдущих, получает PIN и пароль в разы быстрее и, сам по себе проще в использовании.</p>
+
+
+        
+            <p><a href="http://dubkov.xyz/security/hack-wps.html" role="button">Подробнее</a></p>
+        
+    </div>
+    <footer class="post-footer">
+        
+        <div class="mood happy" title="Happy">Настроение</div>
+        
+        <div class="share">Поделиться
+            <ul class="social-networks">
+                <li class="share-facebook"><a href="https://www.facebook.com/sharer.php?s=100&p[title]=Взлом стандарта WPS&p[summary]=По моей скромной традиции, первый пост в моем блоге, после его реанимации, я напишу про Wi-Fi. Спустя год после моего отсутствия ...&p[url]=http://dubkov.xyz/security/hack-wps.html" class="s_facebook" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></a></li>
+                <li class="share-twitter"><a href="http://twitter.com/share?url=http://dubkov.xyz/security/hack-wps.html&text=По моей скромной традиции, первый пост в моем блоге, после его реанимации, я напишу про Wi-Fi. Спустя год после моего отсутствия ...&hashtags=" rel="noreferrer" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li>
+            </ul>
+        </div>
+    </footer>
+</article>
+
+<article class="post" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <ul class="clear">
+            <li><time datetime="2014-02-16T06:30:52+00:00" itemprop="datePublished">2014-02-16</time></li>
+            
+                <li class="cats">
+                        <a href="/categories/security/">security</a>
+                </li>
+        </ul>
+        <h2 itemprop="name headline"><a href="http://dubkov.xyz/security/wi-fi-protected-setup.html">Безопасность стандарта WPS</a></h2>
+    </header>
+    <div class="post-content">
+        <figure>
+    <img src="http://dubkov.xyz/assets/img/router.jpg" alt="Роутер" />
+</figure>
+
+<p>Многим, кто увлекается беспроводными технологиями еще с 2011 года известно о найденной уязвимости в протоколе WPS. Данная уязвимость позволяет злоумышленнику получить доступ к роутеру за считанные часы. Сегодня любой желающий вооружившись оборудованием и специализированным ПО  с легкостью сможет проникнуть в роутер соседа.</p>
+<p><a href="http://dubkov.xyz/security/wi-fi-protected-setup.html" role="button">Подробнее</a></p>
+</div>
+    <footer class="post-footer">
+        <div class="mood happy" title="Happy">Настроение</div>
+        <div class="share">Поделиться
+            <ul class="social-networks">
+                <li class="share-facebook"><a href="https://www.facebook.com/sharer.php?s=100&p[title]=Безопасность стандарта WPS&p[summary]=Многим, кто увлекается беспроводными технологиями еще с 2011 года известно о найденной уязвимости в протоколе WPS. Данная уязвимо...&p[url]=http://dubkov.xyz/security/wi-fi-protected-setup.html" class="s_facebook" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></a></li>
+                <li class="share-twitter"><a href="http://twitter.com/share?url=http://dubkov.xyz/security/wi-fi-protected-setup.html&text=Многим, кто увлекается беспроводными технологиями еще с 2011 года известно о найденной уязвимости в протоколе WPS. Данная уязвимо...&hashtags=" rel="noreferrer" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dubkov.xyz/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li>
+            </ul>
+        </div>
+        
+        <div class="tags">
+            <ul>
+                
+            </ul>
+        </div>
+        
+    </footer>
+</article>
+
+</main>
+</div>
+<script src="/assets/js/jquery-1.12.2.min.js"></script>
+<!--<script src="/assets/js/backtotop.js"></script>-->
+<script src="/assets/js/lunr.min.js"></script>
+<script src="/assets/js/lunr-feed.js"></script>
+<script src="/assets/js/jquery.fitvids.js"></script>
+<script src="/assets/js/scripts.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-XXXXXXX-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+    </body>
+</html>
