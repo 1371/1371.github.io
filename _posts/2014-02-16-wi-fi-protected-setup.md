@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2014-02-16 14:20
-title: "Безопасность стандарта WPS"
-description: Безопасность стандарта WPS взлом Wi-Fi и защита роутера от потенциальной атаки.
-keywords: wi-fi, wps, взлом wi-fi, взлом wps, протокол, стандарт
+date: 2014-03-28 09:30:52 +0300
+title: "Взлом IP камер"
+description: Взлом IP камер. Подбор пароля к веб-интерфейсу IP-камер в России. Использование эксплоита для получения доступа к интерфейсу регистратора.
+keywords: взлом ip камер, kali linux, hydra, ip scanner
 mood: happy
 comments: true
 category:
