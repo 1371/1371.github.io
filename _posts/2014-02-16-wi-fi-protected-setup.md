@@ -5,7 +5,7 @@ title: "Безопасность стандарта WPS"
 description: Безопасность стандарта WPS — взлом Wi-Fi и защита роутера от потенциальной атаки.
 keywords: wi-fi, wps, взлом wi-fi, взлом wps, протокол, стандарт
 mood: happy
-comments: true
+comments: fasle
 category:
 - security
 tags:
