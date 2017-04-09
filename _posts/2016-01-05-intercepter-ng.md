@@ -5,7 +5,7 @@ title: "Про Intercepter-NG и общественный Wi-Fi"
 description: Intercepter-NG и общественный Wi-Fi — насколько вредно пользоваться Wi-Fi в парках и кафе?
 keywords: intercepter-ng, как пользоваться, сниффер, wi-fi
 mood: happy
-comments: fasle
+comments: false
 category:
 - security
 tags:
