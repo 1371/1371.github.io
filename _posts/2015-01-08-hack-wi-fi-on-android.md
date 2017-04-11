@@ -14,7 +14,6 @@ tags:
 
 <figure>
     <img src="http://dubkov.xyz/assets/img/hack-wi-fi.jpg" alt="Взлом IP камер"/>
-    <figcaption>Изображение от <a href="https://www.shutterstock.com/g/focusimage" target="_blank_">focusimage</a></figcaption>
 </figure>
 
 Завершая тему взлома Wi-Fi, хотелось бы выразить свое скромное мнение, по поводу взлома Wi-Fi точек доступа с помощью мобильных устройств на базе Android. Анализируя топ запросов, был приятно удивлен и задался вопросом, а как там обстоят дела со взломом с мобильника.
