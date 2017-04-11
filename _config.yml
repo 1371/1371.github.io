@@ -39,7 +39,7 @@ gems:
 
 # Modules Settings
 show_categories: 1
-show_tags: 1
+show_tags: 0
 show_mood: 1
 show_email: 1
 show_rss: 1
