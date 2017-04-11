@@ -34,6 +34,9 @@ social_networks:
 -  { name: wordpress, url: '' }
 -  { name: xing, url: '' }
 
+gems:
+    - jekyll-emoji
+
 # Modules Settings
 show_categories: 1
 show_tags: 1
