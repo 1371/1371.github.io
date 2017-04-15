@@ -45,7 +45,7 @@ show_email: 1
 show_rss: 1
 show_comments: 1
 show_menu: 1
-fixed_sidebar: 0
+fixed_sidebar: 1
 
 # Defaults
 defaults:
@@ -54,7 +54,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: "true"
+      comments: "false"
 
 # Serving
 url: "http://dubkov.xyz"
