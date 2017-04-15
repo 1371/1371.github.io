@@ -7,7 +7,7 @@ keywords: kali linux, xfce
 mood: happy
 comments: false
 category:
-- security
+- linux
 tags:
 
 ---
