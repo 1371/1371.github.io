@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
 Disallow: /tag
-Crawl-delay: 5
 Host: dubkov.xyz
 Sitemap: dubkov.xyz/sitemap.xml
