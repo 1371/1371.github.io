@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /tag
 Host: dubkov.xyz
-Sitemap: dubkov.xyz/sitemap.xml
+Sitemap: http://dubkov.xyz/sitemap.xml
