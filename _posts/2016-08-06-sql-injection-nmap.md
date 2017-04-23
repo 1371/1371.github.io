@@ -5,7 +5,7 @@ title: "Поиск SQL Injection"
 description: Как быстро просканировать сайт на SQL Injection. Используем Nmap для быстрого поиска уязвимостей движка.
 keywords: nmap, взлом, sql injection
 mood: happy
-comments: false
+comments: true
 category:
 - security
 tags:

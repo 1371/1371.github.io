@@ -5,7 +5,7 @@ title: "Взлом Wi-Fi на Android девайсах"
 description: Завершая тему взлома Wi-Fi, рассказываю про взлом Wi-Fi точек доступа с помощью мобильных устройств на базе Android.
 keywords: wi-fi, wps, взлом wi-fi, взлом wps, взлом wi-fi на андроид, android
 mood: angry
-comments: false
+comments: true
 category:
 - security
 tags:

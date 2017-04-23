@@ -5,7 +5,7 @@ title: "Анонимность в Wi-Fi сетях"
 description: Маскируем свое устройство при взломе Wi-Fi. Несколько практических советов по анонимизации устройства в беспроводных сетях.
 keywords: wi-fi, анонимность, смена mac
 mood: happy
-comments: false
+comments: true
 category:
 - security
 tags:

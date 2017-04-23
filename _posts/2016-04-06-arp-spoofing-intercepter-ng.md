@@ -5,7 +5,7 @@ title: "ARP-Spoofing с помощью Intercepter-NG"
 description: Ранее, я уже рассказывал про Intercepter-NG. Сейчас я хочу дополнить предыдущий пост и, показать на примере, как с помощью Intercepter-NG «снюхать» все передаваемые данные через Wi-Fi
 keywords: wifi, wi-fi, intercepter, arp-spoofing, сниффинг, прослушка трафика
 mood: happy
-comments: false
+comments: true
 category:
 - security
 tags:

@@ -5,7 +5,7 @@ title: "Взлом роутеров с помощью RouterScan"
 description: RouterScan — мулитьплатформенная утилита для поиска уязвимого сетевого оборудования. Сканируем диапазоны IP, крупного росссийского провайдера. Используем уязвимости для получения конфиденциальной информации.
 keywords: роутер, RouterScan, взлом, безопасноть, уязвимость, wi-fi
 mood: speechless
-comments: false
+comments: true
 category:
 - security
 tags:

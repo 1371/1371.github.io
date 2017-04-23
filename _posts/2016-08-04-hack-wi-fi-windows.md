@@ -5,7 +5,7 @@ title: "Взлом Wi-Fi из под Windows"
 description: Как взломать Wi-Fi из под Windows. Используем новую версию Dumpper 80.8
 keywords: wi-fi, взлом, windows, dumpper
 mood: happy
-comments: false
+comments: true
 category:
 - security
 tags:

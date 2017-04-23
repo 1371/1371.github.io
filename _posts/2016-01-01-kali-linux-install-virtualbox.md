@@ -5,7 +5,7 @@ title: "Установка Kali Linux на виртуальную машину"
 description: Установка Kali Linux 2.0 на виртуальную машину. Базовый и рабочий метод установки.
 keywords: kali linux, virtualbox, виртуальная машина, установка
 mood: happy
-comments: false
+comments: true
 category:
 - linux
 tags:

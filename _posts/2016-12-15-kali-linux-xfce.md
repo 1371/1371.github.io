@@ -5,7 +5,7 @@ title: "Kali Linux + XFCE"
 description: Ускоряем медленный компьютер путем установки среды рабочего стола XFCE в Kali Linux 2.0
 keywords: kali linux, xfce
 mood: happy
-comments: false
+comments: true
 category:
 - linux
 tags:

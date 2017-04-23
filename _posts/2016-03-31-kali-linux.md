@@ -5,7 +5,7 @@ title: "Знакомство с Kali Linux"
 description: Знакомство с операционной системой Kali Linux. Краткий обзор доступных инструментов для пентестинга и обеспечения безопасности своего компьютера в сети.
 keywords: kali linux, linux, безопасность, взлом
 mood: happy
-comments: false
+comments: true
 category:
 - linux
 tags:

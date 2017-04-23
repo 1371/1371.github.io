@@ -5,7 +5,7 @@ title: "Взлом IP камер"
 description: Взлом IP камер. Подбор пароля к веб-интерфейсу IP-камер в России. Использование эксплоита для получения доступа к интерфейсу регистратора.
 keywords: взлом ip камер, kali linux, hydra, ip scanner
 mood: happy
-comments: false
+comments: true
 category:
 - security
 tags:
