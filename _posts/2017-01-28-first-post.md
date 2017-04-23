@@ -2,9 +2,9 @@
 layout: post
 date: 2017-01-28 11:45
 title: "Первый пост"
-description: Описаное первого поста.
+description: Отвечаю на вопросы, что такое современные блоги и почему они стали не интересны пользователям в сети.
 mood: happy
-comments: false
+comments: true
 category:
 - blog
 tags:

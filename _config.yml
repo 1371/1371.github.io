@@ -7,12 +7,12 @@ avatar: https://avatars.mds.yandex.net/get-yapic/39727/1130000023618087-15434178
 favicon: /favicon.ico
 twitter_handler: your_handler
 analytics_code: UA-XXXXXXX-2
-disqus: your_disqus_site
+disqus: dubkov
 
 # Social Accounts
 social_networks:
 -  { name: facebook, url: '' }
--  { name: twitter, url: 'https://twitter.com/_dubkov' }
+-  { name: twitter, url: '' }
 -  { name: instagram, url: '' }
 -  { name: google-plus, url: '' }
 -  { name: linkedin, url: '' }
