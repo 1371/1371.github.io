@@ -13,7 +13,7 @@ tags:
 
 <figure>
     <img src="http://dubkov.xyz/assets/img/shutterstock_531885379.jpg" alt="Блогер" />
-    <figcaption>Фотография от <a href="https://www.shutterstock.com/g/Olena+Yakobchuk" target="_blank_">Olena Yakobchuk</a></figcaption>
+    <figcaption>Фотография от <a href="https://www.shutterstock.com/g/Olena+Yakobchuk">Olena Yakobchuk</a></figcaption>
 </figure>
 
 Первый пост в своем блоге, я решил посвятить такой проблеме, как потеря популярности автономных блогов. Фейсбук постепенно высасывает аудиторию лайвджорнал, а про standalone блоги, я вообще молчу. Но всю суть проблемы, я попытаюсь рассказать в необычном для многих формате.

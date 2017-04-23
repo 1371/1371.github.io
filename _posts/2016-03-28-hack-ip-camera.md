@@ -13,8 +13,8 @@ tags:
 ---
 
 <figure>
-    <img src="../assets/img/shutterstock_447330457.jpg" alt: Взлом IP камер/>
-    <figcaption>Изображение от <a href="https://www.shutterstock.com/g/focusimage" target="_blank_">focusimage</a></figcaption>
+    <img src="../assets/img/shutterstock_447330457.jpg" atl="Взлом IP камер" />
+    <figcaption>Изображение от <a href="https://www.shutterstock.com/g/focusimage">focusimage</a></figcaption>
 </figure>
 
 Сегодня, ни для кого не секрет, что любые системы наружного видеонаблюдения уязвимы. IP-камеры в вашей бухгалтерии и на охраняемом объекте, давно стали одной из множества легкодостижимых целей для злоумышленников и школьной орды. Дело в том, что большинство специалистов в отрасли видеонаблюдения в России не уделяют достаточного внимания безопасности веб-интерфейсов таких устройств, как IP-камера или регистратор. Как показывает практика – очень зря.
