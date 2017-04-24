@@ -2,147 +2,157 @@
 		<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
 	<loc>http://dubkov.xyz/</loc>
-	<lastmod>2017-04-23T11:33:29+01:00</lastmod>
+	<lastmod>2017-04-24T22:09:49+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/feed.xml</loc>
-	<lastmod>2017-04-23T11:33:31+01:00</lastmod>
+	<lastmod>2017-04-24T22:09:51+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
+	<loc>http://dubkov.xyz/categories/advertising/</loc>
+	<lastmod>2017-04-24T22:09:50+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://dubkov.xyz/advertising/relevance-page-yandex-direct.html</loc>
+	<lastmod>2017-04-24T22:09:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>http://dubkov.xyz/categories/blog/</loc>
-	<lastmod>2017-04-23T11:33:30+01:00</lastmod>
+	<lastmod>2017-04-24T22:09:51+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/blog/first-post.html</loc>
-	<lastmod>2017-04-23T11:33:31+01:00</lastmod>
+	<lastmod>2017-04-24T22:09:52+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/categories/linux/</loc>
-	<lastmod>2017-04-23T11:33:31+01:00</lastmod>
+	<lastmod>2017-04-24T22:09:53+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/linux/kali-linux-xfce.html</loc>
-	<lastmod>2017-04-23T11:33:32+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>http://dubkov.xyz/categories/security/</loc>
-	<lastmod>2017-04-23T11:33:33+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>http://dubkov.xyz/security/sql-injection-nmap.html</loc>
-	<lastmod>2017-04-23T11:33:33+01:00</lastmod>
+	<lastmod>2017-04-24T22:09:53+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/page2/</loc>
-	<lastmod>2017-04-23T11:33:34+01:00</lastmod>
+	<lastmod>2017-04-24T22:09:54+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/blog/gipertoniya-i-armiya.html</loc>
-	<lastmod>2017-04-23T11:33:35+01:00</lastmod>
+	<lastmod>2017-04-24T22:09:55+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/linux/kali-linux.html</loc>
-	<lastmod>2017-04-23T11:33:35+01:00</lastmod>
+	<lastmod>2017-04-24T22:09:56+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/linux/kali-linux-install-virtualbox.html</loc>
-	<lastmod>2017-04-23T11:33:36+01:00</lastmod>
+	<lastmod>2017-04-24T22:09:57+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://dubkov.xyz/categories/security/</loc>
+	<lastmod>2017-04-24T22:09:58+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://dubkov.xyz/security/sql-injection-nmap.html</loc>
+	<lastmod>2017-04-24T22:09:58+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/anonymous-on-wi-fi.md.html</loc>
-	<lastmod>2017-04-23T11:33:37+01:00</lastmod>
+	<lastmod>2017-04-24T22:09:59+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/hack-wi-fi-windows.html</loc>
-	<lastmod>2017-04-23T11:33:37+01:00</lastmod>
+	<lastmod>2017-04-24T22:10:00+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://dubkov.xyz/page3/</loc>
+	<lastmod>2017-04-24T22:10:00+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/router-scan.html</loc>
-	<lastmod>2017-04-23T11:33:39+01:00</lastmod>
+	<lastmod>2017-04-24T22:10:02+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/arp-spoofing-intercepter-ng.html</loc>
-	<lastmod>2017-04-23T11:33:40+01:00</lastmod>
+	<lastmod>2017-04-24T22:10:02+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/hack-ip-camera.html</loc>
-	<lastmod>2017-04-23T11:33:40+01:00</lastmod>
+	<lastmod>2017-04-24T22:10:03+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/pentest-box.html</loc>
-	<lastmod>2017-04-23T11:33:41+01:00</lastmod>
+	<lastmod>2017-04-24T22:10:04+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/hack-wi-fi-on-android.html</loc>
-	<lastmod>2017-04-23T11:33:42+01:00</lastmod>
+	<lastmod>2017-04-24T22:10:04+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/intercepter-ng.html</loc>
-	<lastmod>2017-04-23T11:33:42+01:00</lastmod>
+	<lastmod>2017-04-24T22:10:05+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/hack-wps.html</loc>
-	<lastmod>2017-04-23T11:33:43+01:00</lastmod>
+	<lastmod>2017-04-24T22:10:06+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/categories/security/page2/</loc>
-	<lastmod>2017-04-23T11:33:44+01:00</lastmod>
+	<lastmod>2017-04-24T22:10:06+01:00</lastmod>
 	<priority>0.4</priority>
 </url>
 <url>
-	<loc>http://dubkov.xyz/page3/</loc>
-	<lastmod>2017-04-23T11:33:44+01:00</lastmod>
+	<loc>http://dubkov.xyz/page4/</loc>
+	<lastmod>2017-04-24T22:10:07+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/hack-wps</loc>
-	<lastmod>2017-04-23T11:33:46+01:00</lastmod>
+	<lastmod>2017-04-24T22:10:08+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/wi-fi-protected-setup.html</loc>
-	<lastmod>2017-04-23T11:33:47+01:00</lastmod>
+	<lastmod>2017-04-24T22:10:10+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/android-vs-wi-fi.html</loc>
-	<lastmod>2017-04-23T11:33:48+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>http://dubkov.xyz/page4/</loc>
-	<lastmod>2017-04-23T11:33:48+01:00</lastmod>
+	<lastmod>2017-04-24T22:10:10+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/page5/</loc>
-	<lastmod>2017-04-23T11:33:50+01:00</lastmod>
+	<lastmod>2017-04-24T22:10:11+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/page6/</loc>
-	<lastmod>2017-04-23T11:33:52+01:00</lastmod>
+	<lastmod>2017-04-24T22:10:13+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 </urlset>
