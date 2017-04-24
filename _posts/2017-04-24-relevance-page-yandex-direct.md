@@ -59,8 +59,8 @@ comments: true
 Релевантность складывается из:
 
 * URL
-* Заголовка страницы {% highlight html linenos %}<title>Заголовок страницы</title>{% endhighlight %}
-* Главного заголовка в тексте страницы {% highlight html linenos %}<h1>Главный заголовок в тексте</h1>{% endhighlight %}
+* Названия страницы {% highlight html linenos %}<title>Название страницы</title>{% endhighlight %}
+* Главного заголовка в тексте {% highlight html linenos %}<h1>Главный заголовок</h1>{% endhighlight %}
 * Наличия ключевых слов в тексте посадочной страницы
 * Наличия ключевого запроса в объявлении
 
