@@ -2,11 +2,6 @@
     <a href="{{ site.baseurl | prepend: site.url }}"><img class="avatar" src="{% if site.avatar %}{{site.avatar}}{% else %}{{ site.email | to_gravatar:140 }}{% endif %}" alt="Николай Дубков" /></a>
     <h1><strong class="my-name">{{ site.name }}</strong></h1>
     <span class="my-job-title">{{ site.job_title }}</span>
-    <div class="share-home">
-    <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-    <script src="//yastatic.net/share2/share.js"></script>
-    <div class="ya-share2" data-services="collections,vkontakte,facebook,pinterest" data-image="https://avatars.mds.yandex.net/get-yapic/39727/1130000023618087-1543417897/islands-200" data-counter=""></div>
-    </div>
     <!--{% if site.show_menu == 1 %}
         {% if site.pages %}
         <div class="mainmenu">
