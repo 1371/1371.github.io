@@ -2,7 +2,7 @@
 layout: post
 date: 2014-04-24 20:50:12 +0300
 title: "Устройство на Android против Wi-Fi"
-description: Завершая тему взлома Wi-Fi, рассказываю про взлом Wi-Fi точек доступа с помощью мобильных устройств на базе Android.
+description: Android против беспроводной сети Wi-Fi. Описание техник взлома Wi-Fi точек доступа с помощью мобильных устройств на базе Android.
 keywords: wi-fi, wps, взлом wi-fi, взлом wps, взлом wi-fi на андроид, android
 mood: happy
 comments: true
