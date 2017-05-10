@@ -47,11 +47,11 @@ layout: default
 {% if paginator.total_pages > 1 %}
 <div class="pagination clear" role="navigation" aria-label="pagination">
     {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">&#8249;</a>
+        <a href="{{ paginator.previous_page_path }}" class="previous">&larr; Назад</a>
     {% endif %}
     <span class="page_number">Страница {{ paginator.page }} из {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">&#8250;</a>
+        <a href="{{ paginator.next_page_path }}" class="next">Вперед &rarr;</a>
     {% endif %}
 </div>
 {% endif %}
