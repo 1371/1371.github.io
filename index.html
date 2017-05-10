@@ -49,7 +49,7 @@ layout: default
     {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path }}" class="previous">&#8249;</a>
     {% endif %}
-    <span style="cursor:default;user-select:none;-o-user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;padding:15px;font-size:30px;line-height: 17px;box-shadow:1px 1px 1px 0 rgba(204,204,204,0.35)}" class="page_number">Страница {{ paginator.page }} из {{ paginator.total_pages }}</span>
+    <span class="page_number">Страница {{ paginator.page }} из {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path }}" class="next">&#8250;</a>
     {% endif %}
