@@ -61,9 +61,10 @@ comments: true
 
 Как с помощью robots.txt запретить обход таких параметров? Если необходимо использовать запрет для конкретных директорий, пишем:
 
-{% highlight html linenos %}Clean-param: start https://site.ru/news{% endhighlight %}
-
-{% highlight html linenos %}Clean-param: start https://tolmax.ru/articles/featured{% endhighlight %}
+{% highlight html linenos %}
+Clean-param: start https://site.ru/news
+Clean-param: start https://tolmax.ru/articles/featured{
+{% endhighlight %}
 
 Если динамических параметров несколько, воспользуемся амперсандом:
 
