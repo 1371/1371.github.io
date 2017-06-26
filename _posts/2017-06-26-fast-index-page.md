@@ -50,18 +50,19 @@ comments: true
 Динамическая директива Clean-Param является межсекционной, это означает, что ее можно использовать в любой строчке robots.txt и неограниченное число раз.
 Если на сайте используются динамические параметры страниц, которые никак не влияют на их содержимое, мы можем закрыть такие параметры с помощью данной директивы.
 
-#### Как использовать Clean-Param   
+#### Как использовать Clean-Param?  
 
 Для начала с помощью инструментов для веб-мастера необходимо отыскать динамические параметры. Они выглядят примерно так:
 
 <figure>
-    <img src="http://dubkov.xyz/assets/img/links-yawebmaster.png" alt="Яндекс.Вебмастер" />
+    <img src="http://dubkov.xyz/assets/img/clean-param.png" alt="Яндекс.Вебмастер" />
     <figcaption>Скриншот из панели Яндекс.Вебмастер</figcaption>
 </figure>
 
 Как с помощью robots.txt запретить обход таких параметров? Если необходимо использовать запрет для конкретых директорий, пишем:
 
 {% highlight html linenos %}Clean-param: start https://site.ru/news{% endhighlight %}
+
 {% highlight html linenos %}Clean-param: start https://tolmax.ru/articles/featured{% endhighlight %}
 
 Если динамических параметров несколько, воспользуемся амперсандом:
