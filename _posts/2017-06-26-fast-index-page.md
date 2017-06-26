@@ -63,7 +63,7 @@ comments: true
 
 {% highlight html linenos %}
 Clean-param: start https://site.ru/news
-Clean-param: start https://tolmax.ru/articles/featured{
+Clean-param: start https://tolmax.ru/articles/featured
 {% endhighlight %}
 
 Если динамических параметров несколько, воспользуемся амперсандом:
