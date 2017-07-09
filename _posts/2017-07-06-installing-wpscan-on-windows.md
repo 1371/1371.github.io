@@ -52,6 +52,7 @@ WPScan — утилита, которая служит помощником в �
 
 <figure>
     <img src="http://dubkov.xyz/assets/img/install-wpscan-6.png" alt="Поиск bash в Windows 10" />
+    <figcaption> </figcaption>
 </figure>
 
 ### Устанавливаем среду Ubuntu в Windows
@@ -90,12 +91,14 @@ WPScan — утилита, которая служит помощником в �
 
 <figure>
     <img src="http://dubkov.xyz/assets/img/install-wpscan-11.png" alt="Установка WPScan" />
+        <figcaption> </figcaption>
 </figure>
 
 Устанавливаем Ruby Version Manager. Для этого копируем в консоль все необходимые строки для полноценной установки. 
 
 <figure>
     <img src="http://dubkov.xyz/assets/img/install-wpscan-12.png" alt="Установка RVM" />
+        <figcaption> </figcaption>
 </figure>
 
 Не забываем установить менеджер для управления gem'ами командой:
