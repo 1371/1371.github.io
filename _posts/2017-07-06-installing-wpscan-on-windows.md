@@ -24,24 +24,29 @@ WPScan — утилита, которая служит помощником в �
 
 <figure>
     <img src="http://dubkov.xyz/assets/img/install-wpscan-1.png" alt="Включение режима разработчика Windows 10" />
+            <figcaption> </figcaption>
 </figure>
 
 <figure>
     <img src="http://dubkov.xyz/assets/img/install-wpscan-2.png" alt="Включение режима разработчика Windows 10" />
+            <figcaption> </figcaption>
 </figure>
 
 <figure>
     <img src="http://dubkov.xyz/assets/img/install-wpscan-3.png" alt="Включение режима разработчика Windows 10" />
+            <figcaption> </figcaption>
 </figure>
 
 #### Активируем подсистему Windows для Linux
 
 <figure>
     <img src="http://dubkov.xyz/assets/img/install-wpscan-4.png" alt="Включение подсистемы" />
+            <figcaption> </figcaption>
 </figure>
 
 <figure>
     <img src="http://dubkov.xyz/assets/img/install-wpscan-5.png" alt="Включение подсистемы" />
+            <figcaption> </figcaption>
 </figure>
 
 ##### Перезагружаем операционную систему
@@ -98,7 +103,7 @@ WPScan — утилита, которая служит помощником в �
 
 <figure>
     <img src="http://dubkov.xyz/assets/img/install-wpscan-12.png" alt="Установка RVM" />
-        <figcaption> </figcaption>
+    <figcaption> </figcaption>
 </figure>
 
 Не забываем установить менеджер для управления gem'ами командой:
