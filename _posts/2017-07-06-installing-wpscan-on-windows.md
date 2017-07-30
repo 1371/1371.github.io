@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2017-06-26 20:15
+date: 2017-07-06 20:15
 title: "Установка WPScan в Windows 10"
 description: Как установить скрипт для проверки на уязвимости плагинов и расширений в CMS WordPress (WPScan) на Windows 10? Пошаговая инструкция. 
 mood: happy
