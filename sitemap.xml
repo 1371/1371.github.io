@@ -2,167 +2,177 @@
 		<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
 	<loc>http://dubkov.xyz/</loc>
-	<lastmod>2017-07-09T14:04:16+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:17+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
+	<loc>http://dubkov.xyz/categories/seo/</loc>
+	<lastmod>2017-07-30T13:35:18+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://dubkov.xyz/seo/filter-baden-baden.html</loc>
+	<lastmod>2017-07-30T13:35:19+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>http://dubkov.xyz/categories/security/</loc>
-	<lastmod>2017-07-09T14:04:18+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:20+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/installing-wpscan-on-windows.html</loc>
-	<lastmod>2017-07-09T14:04:19+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:20+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/seo/fast-indexing-website.html</loc>
-	<lastmod>2017-07-09T14:04:21+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>http://dubkov.xyz/categories/ppc/</loc>
-	<lastmod>2017-07-09T14:04:21+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>http://dubkov.xyz/ppc/relevance-page-yandex-direct.html</loc>
-	<lastmod>2017-07-09T14:04:22+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:21+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/page2/</loc>
-	<lastmod>2017-07-09T14:04:23+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:22+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/sql-injection-nmap.html</loc>
-	<lastmod>2017-07-09T14:04:23+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:22+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/anonymous-on-wi-fi.html</loc>
-	<lastmod>2017-07-09T14:04:24+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:23+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/hack-wi-fi-windows.html</loc>
-	<lastmod>2017-07-09T14:04:25+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:24+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/router-scan.html</loc>
-	<lastmod>2017-07-09T14:04:26+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:25+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/arp-spoofing-intercepter-ng.html</loc>
-	<lastmod>2017-07-09T14:04:27+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:26+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/hack-ip-camera.html</loc>
-	<lastmod>2017-07-09T14:04:27+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:27+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/pentest-box.html</loc>
-	<lastmod>2017-07-09T14:04:28+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:28+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/hack-wi-fi-on-android.html</loc>
-	<lastmod>2017-07-09T14:04:29+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:28+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/intercepter-ng.html</loc>
-	<lastmod>2017-07-09T14:04:29+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:29+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/categories/security/page2/</loc>
-	<lastmod>2017-07-09T14:04:31+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:30+01:00</lastmod>
 	<priority>0.4</priority>
 </url>
 <url>
+	<loc>http://dubkov.xyz/categories/ppc/</loc>
+	<lastmod>2017-07-30T13:35:30+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>http://dubkov.xyz/ppc/relevance-page-yandex-direct.html</loc>
+	<lastmod>2017-07-30T13:35:31+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
 	<loc>http://dubkov.xyz/categories/blog/</loc>
-	<lastmod>2017-07-09T14:04:31+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:32+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/blog/first-post.html</loc>
-	<lastmod>2017-07-09T14:04:31+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:33+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/categories/linux/</loc>
-	<lastmod>2017-07-09T14:04:33+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:33+01:00</lastmod>
 	<priority>0.6</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/linux/kali-linux-xfce.html</loc>
-	<lastmod>2017-07-09T14:04:33+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:34+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/page3/</loc>
-	<lastmod>2017-07-09T14:04:34+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:35+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/hack-wps</loc>
-	<lastmod>2017-07-09T14:04:35+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:35+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/hack-wps.html</loc>
-	<lastmod>2017-07-09T14:04:36+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:37+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/android-vs-wi-fi.html</loc>
-	<lastmod>2017-07-09T14:04:37+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:37+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/security/wi-fi-protected-setup.html</loc>
-	<lastmod>2017-07-09T14:04:38+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:38+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/blog/gipertoniya-i-armiya.html</loc>
-	<lastmod>2017-07-09T14:04:38+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:39+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/linux/kali-linux.html</loc>
-	<lastmod>2017-07-09T14:04:39+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:39+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/linux/kali-linux-install-virtualbox.html</loc>
-	<lastmod>2017-07-09T14:04:40+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:41+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/page4/</loc>
-	<lastmod>2017-07-09T14:04:40+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:41+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/page5/</loc>
-	<lastmod>2017-07-09T14:04:44+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:44+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/page6/</loc>
-	<lastmod>2017-07-09T14:04:44+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:45+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>http://dubkov.xyz/page7/</loc>
-	<lastmod>2017-07-09T14:04:45+01:00</lastmod>
+	<lastmod>2017-07-30T13:35:46+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 </urlset>
