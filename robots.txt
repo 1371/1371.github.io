@@ -1,6 +1,7 @@
 User-agent: *
 Disallow: 
 Disallow: /tag
+Disallow: /page
 Disallow: /portfolio
 Host: dubkov.xyz
 Sitemap: http://dubkov.xyz/sitemap.xml
