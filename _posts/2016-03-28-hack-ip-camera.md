@@ -13,7 +13,7 @@ tags:
 ---
 
 <figure>
-    <img src="../assets/img/shutterstock_447330457.jpg" atl="Взлом IP камер" />
+    <img src="../assets/img/shutterstock_447330457.jpg" alt="Взлом IP камер" />
     <figcaption>Изображение от <a href="https://www.shutterstock.com/g/focusimage">focusimage</a></figcaption>
 </figure>
 
