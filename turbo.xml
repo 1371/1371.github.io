@@ -84,12 +84,11 @@
 
 <p>Снижение пропускной способности и установка личного пароля, защитят роутер от потенциальной атаки. Про данную уязвимость можно говорить бесконечно, обычно проблемы с подбором возникают в результате несовместимого для этой цели оборудования и ПО, а так же, пренебрежение критериями. Данная уязвимость позволяет злоумышленнику получить доступ к роутеру за считанные часы.</p>
 ]]>
-
-<yandex:related>
+ </turbo:content>
+  <yandex:related>
     <link url="http://dubkov.xyz/security/hack-wps.html" img="http://dubkov.xyz/assets/img/wireless.jpg">Взлом стандарта WPS</link>
     <link url="http://dubkov.xyz/security/hack-wi-fi-windows.html" img="http://dubkov.xyz/assets/img/hack-wi-fi.png">Взлом Wi-Fi из под Windows</link>
 </yandex:related>
- </turbo:content>
  </item>
 </channel>
 </rss>
