@@ -31,11 +31,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>http://dubkov.xyz/page2/</loc>
-	<lastmod>2017-07-30T16:09:13+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>http://dubkov.xyz/seo/fast-indexing-website.html</loc>
 	<lastmod>2017-07-30T16:09:14+01:00</lastmod>
 	<priority>0.8</priority>
@@ -86,11 +81,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>http://dubkov.xyz/categories/security/page2/</loc>
-	<lastmod>2017-07-30T16:09:21+01:00</lastmod>
-	<priority>0.4</priority>
-</url>
-<url>
 	<loc>http://dubkov.xyz/categories/ppc/</loc>
 	<lastmod>2017-07-30T16:09:23+01:00</lastmod>
 	<priority>0.6</priority>
@@ -107,11 +97,6 @@
 </url>
 <url>
 	<loc>http://dubkov.xyz/blog/first-post.html</loc>
-	<lastmod>2017-07-30T16:09:25+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>http://dubkov.xyz/page3/</loc>
 	<lastmod>2017-07-30T16:09:25+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
@@ -146,11 +131,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>http://dubkov.xyz/page4/</loc>
-	<lastmod>2017-07-30T16:09:32+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>http://dubkov.xyz/linux/kali-linux-install-virtualbox.html</loc>
 	<lastmod>2017-07-30T16:09:32+01:00</lastmod>
 	<priority>0.8</priority>
@@ -158,26 +138,6 @@
 <url>
 	<loc>http://dubkov.xyz/linux/kali-linux.html</loc>
 	<lastmod>2017-07-30T16:09:34+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>http://dubkov.xyz/page5/</loc>
-	<lastmod>2017-07-30T16:09:36+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>http://dubkov.xyz/page6/</loc>
-	<lastmod>2017-07-30T16:09:37+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>http://dubkov.xyz/page7/</loc>
-	<lastmod>2017-07-30T16:09:38+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>http://dubkov.xyz/page8/</loc>
-	<lastmod>2017-07-30T16:09:39+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 </urlset>
