@@ -2,6 +2,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    
+    {% if site.categories.jobs == null %}
+  <p>We're not hiring right now</p>
+{% else %}
+  {% for post in site.categories.jobs %}
+    <article>
+      <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
+      <p>{{ post.summary }}</p>
+    </article>
+  {% endfor %}
+{% endif %}
+    
+    
+    
+    
     <title>{% if page.title %}{{ page.title}} | {% endif %}{{ site.name}}</title>
     <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% endif %}" />
     <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% endif %}" />
