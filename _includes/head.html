@@ -3,8 +3,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.name}}</title>
-    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %} {{ site.name | escape }}" />
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %} {{ site.name | escape }}" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.name | escape }}" />
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.name | escape }}" />
     <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
